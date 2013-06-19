@@ -19,10 +19,8 @@ func TestGet(t *testing.T) {
 }
 
 func checkGet(b *Board, x, y int, expected Token, t *testing.T) {
-	actual, err := b.Get(x, y)
-	if err != nil {
-		t.Error(err)
-	} else if actual != expected {
+	actual := b.Get(x, y)
+	if actual != expected {
 		t.Errorf("{%d,%d} should have returned %d: %d", x, y, expected, actual)
 	}
 }

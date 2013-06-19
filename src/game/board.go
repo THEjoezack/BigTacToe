@@ -7,7 +7,7 @@ import (
 
 type Token int
 
-const boardSize int = 3
+const boardSize int = 3 // TODO: Should be a config value
 const (
 	Blank Token = iota
 	X
@@ -18,13 +18,13 @@ type Board struct {
 	matrix [boardSize * boardSize]Token
 }
 
-func (b *Board) Get(x, y int) (Token, error) {
+func (b *Board) Get(x, y int) Token {
 	i := coordinatesToIndex(x, y)
 	if i < 0 || i >= len(b.matrix) {
 		message := fmt.Sprintf("Unable to set value, invalid index requested: %d,%d", x, y)
-		return Blank, errors.New(message)
+		panic(message)
 	}
-	return b.matrix[i], nil
+	return b.matrix[i]
 }
 
 func (b *Board) Set(t Token, x, y int) error {
@@ -33,11 +33,7 @@ func (b *Board) Set(t Token, x, y int) error {
 		return errors.New(message)
 	}
 
-	current, err := b.Get(x, y)
-	if err != nil {
-		return err
-	}
-
+	current := b.Get(x, y)
 	if current != Blank {
 		message := fmt.Sprintf("Unable to set location {%d,%d}, space is occupied by %d", x, y, current)
 		return errors.New(message)
