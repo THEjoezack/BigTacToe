@@ -18,6 +18,15 @@ type Board struct {
 	matrix [boardSize * boardSize]Token
 }
 
+func (b *Board) BlankSpacesExist() bool {
+	for _, v := range b.matrix {
+		if v == Blank {
+			return true
+		}
+	}
+	return false
+}
+
 func (b *Board) Get(x, y int) Token {
 	i := coordinatesToIndex(x, y)
 	if i < 0 || i >= len(b.matrix) {

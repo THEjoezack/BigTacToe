@@ -5,6 +5,28 @@ import "testing"
 // Note: Don't mind testing more than one thing per func in go
 // since the test doesn't bail when there's a failure!
 
+// Test BlankSpacesExist
+
+func TestBlankSpacesExist(t *testing.T) {
+	b := new(Board)
+	if !b.BlankSpacesExist() {
+		t.Errorf("New board should have blank spaces")
+	}
+
+	b.matrix[1] = X
+	if !b.BlankSpacesExist() {
+		t.Errorf("Board with spaces should have spaces")
+	}
+
+	for k, _ := range b.matrix {
+		b.matrix[k] = O
+	}
+
+	if b.BlankSpacesExist() {
+		t.Errorf("Full board should not have spaces")
+	}
+}
+
 // Test Get
 
 func TestGet(t *testing.T) {
