@@ -55,3 +55,9 @@ func (b *Board) Set(t Token, x, y int) error {
 func coordinatesToIndex(x, y int) int {
 	return x + boardSize*y
 }
+
+func indexToCoordinates(n int) (int, int) {
+	y := n / boardSize
+	x := n - (y * boardSize)
+	return x, y
+}

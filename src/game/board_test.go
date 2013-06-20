@@ -95,7 +95,24 @@ func TestCoordinatesToIndex(t *testing.T) {
 
 func checkCoordinatesToIndex(expected, x, y int, t *testing.T) {
 	actual := coordinatesToIndex(x, y)
-	if coordinatesToIndex(x, y) != expected {
-		t.Errorf("{%d,%d} should evaluate to 0: %d", x, y, actual)
+	if actual != expected {
+		t.Errorf("{%d,%d} should evaluate to {%d}: {%d}", x, y, expected, actual)
+	}
+}
+
+//Test indexToCoordinates
+
+func TestIndexToCoordinates(t *testing.T) {
+	checkIndexToCoordinates(0, 0, 0, t)
+	checkIndexToCoordinates(1, 0, 1, t)
+	checkIndexToCoordinates(2, 1, 5, t)
+	checkIndexToCoordinates(1, 1, 4, t)
+	checkIndexToCoordinates(2, 2, 8, t)
+}
+
+func checkIndexToCoordinates(expectedX, expectedY, input int, t *testing.T) {
+	actualX, actualY := indexToCoordinates(input)
+	if actualX != expectedX || actualY != expectedY {
+		t.Errorf("{%d} should evaluate to {%d,%d} : {%d,%d}", input, expectedX, expectedY, actualX, actualY)
 	}
 }
