@@ -1,13 +1,8 @@
 package main
 
 import (
-	"bufio"
-	"errors"
+	"bigtactoe/game"
 	"fmt"
-	"game"
-	"os"
-	"strconv"
-	"strings"
 )
 
 func main() {
@@ -22,8 +17,7 @@ func main() {
 		render(g)
 		bigX, bigY, x, y, err := getMove(g)
 		if err != nil {
-			fmt.Printf("Problem parsing output!")
-			bigX, bigY, x, y, err = getMove(g)
+			panic(err)
 		}
 		g.PlaceToken(bigX, bigY, x, y)
 	}
@@ -54,21 +48,11 @@ func getMove(g *game.Game) (int, int, int, int, error) {
 }
 
 func getCoordinates() (int, int, error) {
-	reader := bufio.NewReader(os.Stdin)
-	input, _ := reader.ReadString('\n')
-	coordinates := strings.Split(input, ",")
-	if len(coordinates) != 2 {
-		return -1, -1, errors.New("Can't parse input")
-	}
-	x, err := strconv.Atoi(coordinates[0])
+	var x, y int
+	_, err := fmt.Scanf("%d,%d\n", &x, &y)
 	if err != nil {
-		return -1, -1, errors.New("Can't parse 1st input")
+		return -1, -1, err
 	}
-	y, err := strconv.Atoi(coordinates[1])
-	if err != nil {
-		return -1, -1, errors.New("Can't parse 2nd input")
-	}
-
 	return x, y, nil
 }
 
@@ -81,7 +65,7 @@ func render(g *game.Game) {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("You must make your move in {%d,%d}", x, y)
+		fmt.Printf("You must make your move in {%d,%d}\n", x, y)
 	}
 	renderGameBoard(g)
 }
@@ -106,7 +90,7 @@ func renderGameBoard(g *game.Game) {
 func getTokenName(t game.Token) string {
 	switch {
 	case t == game.Blank:
-		return "_"
+		return "-"
 	case t == game.X:
 		return "X"
 	}
