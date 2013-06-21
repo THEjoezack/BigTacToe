@@ -98,6 +98,20 @@ func TestPlaceToken(t *testing.T) {
 	}
 }
 
+func TestGetBoardRequirementCoordinates(t *testing.T) {
+	g := NewGame()
+	_, _, err := g.GetBoardRequirementCoordinates()
+	if err == nil {
+		t.Errorf("No board requirment on first turn")
+	}
+
+	g.RequiredBoardIndex = 3
+	x, y, err := g.GetBoardRequirementCoordinates()
+	if x != 0 && y != 1 {
+		t.Errorf("Board requirement should be {0,1}")
+	}
+}
+
 func TestGetNextBoardIndex(t *testing.T) {
 	g := NewGame()
 	if 4 != g.getNextBoardIndex(1, 1) {

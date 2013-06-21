@@ -9,7 +9,7 @@ const noBoardRequirment int = -1
 
 type Game struct {
 	CurrentPlayer, NextPlayer Token
-	RequiredBoardIndex        int
+	RequiredBoardIndex        int // TODO: Shouldn't be exposed
 	InternalBoards            [boardSize * boardSize]Board
 	GameBoard                 Board
 }
@@ -56,6 +56,14 @@ func (g *Game) PlaceToken(bigX, bigY, x, y int) error {
 	g.CurrentPlayer, g.NextPlayer = g.NextPlayer, g.CurrentPlayer
 
 	return nil
+}
+
+func (g *Game) GetBoardRequirementCoordinates() (x, y int, err error) {
+	if g.AnyBoardAllowed() {
+		return -1, -1, errors.New("No board requirement")
+	}
+	x, y = indexToCoordinates(g.RequiredBoardIndex)
+	return x, y, nil
 }
 
 // Returns (true,X|O) if game's been won
