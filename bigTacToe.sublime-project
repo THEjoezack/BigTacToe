@@ -1,0 +1,11 @@
+{
+    "folders": [
+        {
+            "path": "/E/projects/BigTacToe"
+        }
+    ], 
+    "settings": {
+        "go_project": true, 
+        "name": "bigTacToe"
+    }
+}

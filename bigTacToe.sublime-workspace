@@ -1,0 +1,476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Buffer",
+				"NewBuffer	*bytes.Buffer ƒ"
+			],
+			[
+				"Base",
+				"ByteSliceToBase64	string ƒ"
+			],
+			[
+				"Hex",
+				"HexToByteArray	[]byte, error ƒ"
+			],
+			[
+				"E",
+				"Encode	 ƒ"
+			],
+			[
+				"Read",
+				"ReadByte	c byte, err error ƒ"
+			],
+			[
+				"B",
+				"ReadByte	c byte, err error ƒ"
+			],
+			[
+				"Buff",
+				"NewBuffer	*bytes.Buffer ƒ"
+			],
+			[
+				"En",
+				"EncodeToString	string ƒ"
+			],
+			[
+				"base",
+				"base64	 package ρ"
+			],
+			[
+				"New",
+				"NewEncoder	io.WriteCloser ƒ"
+			],
+			[
+				"e",
+				"NewEncoder	io.WriteCloser ƒ"
+			],
+			[
+				"hex",
+				"hexString	string ν"
+			],
+			[
+				"Pri",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"sq",
+				"Sqrt	float64 ƒ"
+			],
+			[
+				"pr",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"Pr",
+				"Println	n int, err error ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/game/board.go",
+			"settings":
+			{
+				"buffer_size": 993,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/game/rules.go",
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/game/board_test.go",
+			"settings":
+			{
+				"buffer_size": 1743,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Go Build/Go.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"go",
+				"GoSublime: Default Settings"
+			],
+			[
+				"packages",
+				"GoSublime: List Package declarations"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install P",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contrl",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 363.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/joe/AppData/Roaming/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
+		"/E/projects/BigTacToe/src/game/board.go",
+		"/E/projects/BigTacToe/src/game/board_test.go",
+		"/E/projects/BigTacToe/src/tictactoe/game/board.go",
+		"/E/projects/BigTacToe/src/tictactoe/game/board_test.go",
+		"/E/projects/BigTacToe/src/tictactoe/board_test.go",
+		"/E/projects/BigTacToe/src/tictactoe/board.go",
+		"/C/Users/joe/Dropbox/projects/MatasanoCryptoChallenges/src/crypto/converter_test.go",
+		"/C/Users/joe/Dropbox/projects/go.txt",
+		"/C/Users/joe/Dropbox/projects/MatasanoCryptoChallenges/src/crypto/xor_test.go",
+		"/C/Users/joe/Dropbox/projects/MatasanoCryptoChallenges/src/crypto/xor.go",
+		"/C/Users/joe/Dropbox/projects/MatasanoCryptoChallenges/src/crypto/converter.go",
+		"/C/Users/joe/Dropbox/projects/MatasanoCryptoChallenges/src/crypto/singleCharXorChiper.go",
+		"/C/Users/joe/Dropbox/coursera/cryptography.txt",
+		"/E/projects/Game-Of-Life/go/src/lib/rules.go",
+		"/E/projects/Game-Of-Life/go/src/lib/rules_test.go",
+		"/E/projects/Game-Of-Life/go/src/lib/grid.go",
+		"/E/projects/Game-Of-Life/go/src/gameOfLife.go",
+		"/E/projects/Game-Of-Life/go/src/lib/grid_test.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/gameOfLife.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/gameOfLife.sublime-project",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/lib/grid_test.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/lib/grid.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/lib/rules.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/gameOfLife/rules.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/gameOfLife/grid.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/src/gameOfLife/gameOfLife.go",
+		"/C/Users/joe/Dropbox/projects/GameOfLife/go/go.sublime-build",
+		"/C/Users/joe/Dropbox/gameOfLife.go",
+		"/E/projects/Project-Euler/go/src/euler/lib/primeGenerator.go",
+		"/E/projects/Project-Euler/go/src/euler/lib/palindrome.go",
+		"/E/projects/Project-Euler/go/src/euler/003.go",
+		"/E/projects/Project-Euler/go/src/euler/004.go",
+		"/C/Users/joe/AppData/Roaming/Sublime Text 2/Packages/GoSublime/9o.md",
+		"/E/projects/Project-Euler/go/src/euler/001.go",
+		"/C/Users/joe/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
+		"/C/Users/joe/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/E/projects/Project-Euler/go/003.go",
+		"/E/projects/Project-Euler/go/src/lib/Prime.go",
+		"/E/projects/Project-Euler/go/src/002.go",
+		"/E/projects/Project-Euler/go/src/003.go",
+		"/E/projects/Project-Euler/go/src/001.go",
+		"/E/projects/Project-Euler/go/001.go",
+		"/E/projects/Project-Euler/go/002.go",
+		"/E/projects/Project-Euler/go/lib/Prime.go",
+		"/C/Users/joe/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/projects/Project-Euler/go/Prime.go",
+		"/E/projects/Project-Euler/go/hello.go",
+		"/C/Users/joe/AppData/Roaming/Sublime Text 2/Packages/GoSublime/USAGE.md",
+		"/E/projects/7languages7weeks/scala/day_3/do.md",
+		"/E/projects/7languages7weeks/scala/day_3/sizer.scala",
+		"/E/projects/7languages7weeks/ruby/day_2/find.md",
+		"/E/projects/7languages7weeks/scala/day_1/day_1.iml",
+		"/E/projects/7languages7weeks/scala/day_1/plugins/plugins.sbt",
+		"/E/projects/7languages7weeks/scala/day_1/src/main/com/joezack/tictactoe/Token.scala",
+		"/E/projects/7languages7weeks/scala/day_1/src/main/com/joezack/tictactoe/Referee.scala",
+		"/E/projects/7languages7weeks/scala/day_1/src/main/com/joezack/tictactoe/Board.scala",
+		"/E/projects/Project-Euler/ruby/lib/permuter.rb",
+		"/E/projects/Project-Euler/ruby/041.rb",
+		"/C/Users/joe/projects/Project-Euler/prime_generator.rb",
+		"/C/Users/joe/projects/Project-Euler/permuter.rb",
+		"/C/Users/joe/projects/Project-Euler/041.rb",
+		"/C/Users/joe/Dropbox/Tax/2012/interest.txt",
+		"/C/Users/joe/Dropbox/Books/beauty-key.txt",
+		"/C/Users/joe/Desktop/bitcoin-0.8.0-win32/readme.txt",
+		"/D/Program Files (x86)/steam/steamapps/common/BioShock Infinite/steam_appid.txt",
+		"/C/Users/joe/Dropbox/games/simcity.txt",
+		"/C/Users/joe/Dropbox/Tax/2012/grabel-login.txt",
+		"/C/Users/joe/Desktop/2012-taxes/interest.txt",
+		"/C/Users/joe/Desktop/index.html",
+		"/C/Users/joe/Desktop/treys-lightroom-presets-bundle/treys-lightroom-presets-bundle/How To Install the Presets.txt",
+		"/C/Users/joe/Desktop/comment.txt",
+		"/C/Users/joe/Desktop/uh.txt",
+		"//BLIZZARD2/Users/joe/Documents/checlist.txt",
+		"/E/projects/DeltaECalculator/DeltaECalculator.sln",
+		"/E/projects/Bootstrap/docs/assets/js/README.md",
+		"/E/projects/DeltaECalculator/DeltaECalculator.Tests/DeltaECalculator.Tests.csproj",
+		"/E/projects/DeltaECalculator/.gitmodules",
+		"/E/projects/ColorMine/ColorMine.Test/ColorMine.Test.csproj",
+		"/E/projects/ColorMine/ColorMine.sln",
+		"/C/Users/joe/Desktop/DeltaECalculator/Web.config",
+		"/E/projects/DeltaECalculator/.gitignore",
+		"/C/Users/joe/Documents/Amazon MP3/logs/amdlog.txt",
+		"/C/Users/joe/Desktop/git-submodule.html",
+		"/E/projects/DeltaECalculator/DeltaECalculator.sln.DotSettings",
+		"/E/projects/DeltaECalculator/DeltaECalculator/DeltaECalculator.csproj",
+		"/E/projects/DeltaECalculator/Bootstrap/Makefile",
+		"/E/projects/DeltaECalculator/packages/repositories.config",
+		"/E/projects/DeltaECalculator/DeltaECalculator.Api/packages.config",
+		"/C/Users/joe/Desktop/RogueJS/rogueJS.js",
+		"/C/Users/joe/Desktop/RogueJS/index.html",
+		"/C/Users/joe/Desktop/Adobe Photoshop Lightroom 4/Adobe Photoshop Lightroom 4 Keys.html",
+		"/D/RogueJS/rogueJS.js",
+		"/D/RogueJS/index.html",
+		"/D/RogueJS/underscore.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"NewBuffer",
+			"Bytes()",
+			"Cols",
+			"Col",
+			"cell",
+			"cells",
+			"package",
+			"tab",
+			"indent",
+			"getPageSizeConcurrently",
+			"@stack",
+			"DeltaECalculator.Api",
+			".Api",
+			"api",
+			".Api",
+			"remove",
+			"delete",
+			"show",
+			"Test.ColorMine",
+			"DeltaE",
+			"options",
+			"area",
+			"black",
+			"width",
+			"area",
+			"$(",
+			"area",
+			"badge",
+			"gameArea",
+			"this."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Cells",
+			"DeltaECalculator",
+			"",
+			"ColorMine.Test",
+			"area"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/game/board.go",
+					"settings":
+					{
+						"buffer_size": 993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/GoSublime.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/game/rules.go",
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/GoSublime.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/game/board_test.go",
+					"settings":
+					{
+						"buffer_size": 1743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/GoSublime.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://E:\\projects\\Project-Euler\\go":
+	{
+		"height": 154.0
+	},
+	"output.9o://E:\\projects\\Project-Euler\\go\\lib":
+	{
+		"height": 154.0
+	},
+	"output.9o://E:\\projects\\Project-Euler\\go\\src\\euler":
+	{
+		"height": 368.0
+	},
+	"output.9o://E:\\projects\\Project-Euler\\go\\src\\euler\\lib":
+	{
+		"height": 154.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 82.0
+	},
+	"output.exec":
+	{
+		"height": 252.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}
